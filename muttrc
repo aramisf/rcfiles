@@ -1,0 +1,34 @@
+set realname = 'Aramis'
+send-hook . 'my_hdr From: Aramis <ashf03@inf.ufpr.br>'
+
+#order of headers when i read mail
+hdr_order Date: From: Organization: User-Agent: X-Mailer To: Cc: Reply-To: Subject:
+
+#ignore all headers, then unignore the ones I wanna see
+ignore *
+unignore Date: From: Organization: User-Agent: X-Mailer To: Cc: Reply-To: Subject:
+
+unset mark_old       # unread old messages are still unread after quitting
+set move=no			# Don't ask to move read messages to mbox on exit
+# P/ tirar os html
+set implicit_autoview="yes"
+
+set charset="utf-8"
+#set send_charset="iso-8859-1:utf-8:us-ascii"
+
+#set assumed_charset="iso-8859-1:utf-8:us-ascii"
+#set locale="pt_BR.ISO-8859-1"
+set locale="pt_BR.UTF-8"
+
+#set save_address="yes"
+set record="~/Mail/sent"
+#set beep_new="yes"
+
+#set mbox=~/Mail/Entrada
+mailboxes ~/Mail/Entrada ~/Mail/Xorg
+set edit_hdrs
+
+set tmpdir=~/Mail
+set nobeep
+
+set fast_reply		#pula perguntas iniciais ao responder
