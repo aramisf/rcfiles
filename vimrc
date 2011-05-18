@@ -15,15 +15,17 @@ set tabstop=4
 set ai
 set shiftwidth=4
 
-" Troca 1 TAB por 4 espacos
+" Troca 1 TAB por <shiftwidth> espacos
 set expandtab
 
 " Define o tamanho maximo da largura em 80 colunas:
 set textwidth=80
 
-" Habilita i mouse no editor:
+" Habilita o mouse no editor:
 " set mouse=a
-""fold
+
+" "Esconde" um bloco identado:
+" fold
 
 " Casa padrao onde existem espacos vazios no final da linha
 highlight WhitespaceEOL ctermbg=LightGreen
