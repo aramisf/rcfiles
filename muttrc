@@ -1,5 +1,5 @@
 set realname = 'Aramis'
-send-hook . 'my_hdr From: Aramis <ashf03@inf.ufpr.br>'
+send-hook . 'my_hdr From: Aramis <aramisf@email.may.change>'
 
 #order of headers when i read mail
 hdr_order Date: From: Organization: User-Agent: X-Mailer To: Cc: Reply-To: Subject:
@@ -25,7 +25,7 @@ set record="~/Mail/sent"
 #set beep_new="yes"
 
 #set mbox=~/Mail/Entrada
-mailboxes ~/Mail/Entrada ~/Mail/Xorg
+mailboxes ~/Mail/Entrada
 set edit_hdrs
 
 set tmpdir=~/Mail
