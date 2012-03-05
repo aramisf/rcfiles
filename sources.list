@@ -1,0 +1,19 @@
+# Stable:
+# <adicionar aqui>
+
+
+# Sid:
+#deb http://ftp.br.debian.org/debian/ sid main contrib non-free
+#deb-src http://ftp.br.debian.org/debian/ sid main contrib non-free
+#deb http://ftp.br.debian.org/debian/ experimental main contrib non-free
+#deb-src http://ftp.br.debian.org/debian/ experimental main contrib non-free
+
+
+# Multimedia
+#deb ftp://ftp.debian-multimedia.org/ sid main non-free
+#deb http://www.debian-multimedia.org/ testing main
+
+
+# Talvez vc use este:
+# Repositorio onde deveria estar o emulador do playstation: (desatualizado)
+#deb ftp://ftp.debian-ports.org/debian sid main 
