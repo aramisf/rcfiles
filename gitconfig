@@ -1,0 +1,9 @@
+[user]
+	name = aramisf
+	email = aramisf@github.com
+
+[alias]
+  co = checkout
+  ci = commit -v
+  st = status -s -b
+
