@@ -42,3 +42,7 @@ autocmd BufWritePre * %s/\s\+$//e
 
 " Encryption algorithm, if used
 set cm=blowfish2
+
+
+" set file encodings to UTF-8
+set enc=utf-8
